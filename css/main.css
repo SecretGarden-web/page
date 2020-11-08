@@ -60,12 +60,12 @@
  *
  * ------------------------------------------------------------------- */
 html {
-    font-size: 10px;
+    font-size: 10vw;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400vw) {
     html {
-        font-size: 9.411764705882353px;
+        font-size: 9.411764705882353vw;
     }
 }
 
@@ -123,7 +123,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     margin-bottom: 1.8rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600vw) {
     h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
         margin-top: 5.1rem;
     }
@@ -134,7 +134,7 @@ h5, .h5, h6, .h6 {
     margin-bottom: 1.5rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600vw) {
     h5, .h5, h6, .h6 {
         margin-top: 3.6rem;
         margin-bottom: 0.9rem;
@@ -147,7 +147,7 @@ h1, .h1 {
     letter-spacing: -.1rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600vw) {
     h1, .h1 {
         font-size: 3.3rem;
         letter-spacing: -.07rem;
@@ -194,7 +194,7 @@ p.lead {
     color: #000000;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800vw) {
     p.lead {
         font-size: 1.8rem;
     }
@@ -229,7 +229,7 @@ blockquote {
 blockquote:before {
     content: "\201C";
     font-size: 10rem;
-    line-height: 0px;
+    line-height: 0vw;
     margin: 0;
     color: rgba(0, 0, 0, 0.25);
     font-family: arial, sans-serif;
@@ -288,7 +288,7 @@ code {
     white-space: nowrap;
     background: #F1F1F1;
     border: 1px solid #E1E1E1;
-    border-radius: 3px;
+    border-radius: 3vw;
 }
 
 pre > code {
@@ -308,7 +308,7 @@ del {
 }
 
 abbr[title], dfn[title] {
-    border-bottom: 1px dotted;
+    border-bottom: 1vw dotted;
     cursor: help;
     text-decoration: none;
 }
@@ -369,8 +369,8 @@ ul.disc li::before {
     border-radius: 50%;
     background: #39b54a;
     position: absolute;
-    left: -17px;
-    top: 11px;
+    left: -17vw;
+    top: 11vw;
     vertical-align: middle;
 }
 
@@ -431,7 +431,7 @@ table {
 th, td {
     padding: 1.5rem 3rem;
     text-align: left;
-    border-bottom: 1px solid #E8E8E8;
+    border-bottom: 1vw solid #E8E8E8;
 }
 
 th {
@@ -508,7 +508,7 @@ form,
     top: 0;
     right: 100%;
     width: 100%;
-    height: 4px;
+    height: 4vw;
 }
 
 .oldie .pace {
@@ -546,10 +546,10 @@ form,
 
 .line-scale-pulse-out > div {
     background-color: #39b54a;
-    width: 4px;
-    height: 35px;
-    border-radius: 2px;
-    margin: 2px;
+    width: 4vw;
+    height: 35vw;
+    border-radius: 2vw;
+    margin: 2vw;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
     display: inline-block;
